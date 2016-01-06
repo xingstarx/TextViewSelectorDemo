@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
+    TextView textView2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         textView= (TextView) findViewById(R.id.textview);
-
-//        textView.setTextColor(ContextCompat.getColorStateList(this,R.color.activity_landing_color_selector));
-
+        textView2= (TextView) findViewById(R.id.textview2);
     }
 
     @Override
